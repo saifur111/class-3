@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Class 3 oderlist/unorder list/table</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			width: 960px;
+			background-color: darkslategrey;
+			margin: 0 auto;
+			display: block;
+		}
+
+		h1 {
+			text-align: center;
+			color: #040404;
+			background-color: rgb(160, 112, 112);
+			text-shadow: 1px -6px 3px #0a0a0a8c;
+		}
+
+		h3 {
+			text-align: center;
+			color: #040404;
+			#dad1d1
+		}
+
+		a {
+			text-decoration: none;
+			color: aliceblue
+		}
+
+		button {
+			background-color: darkslategrey;
+			cursor: pointer;
+			border: 2px solid #a0306461;
+			text-align: center;
+			font-size: 24px;
+			padding: 10px;
+			color: #9ccc3c;
+
+		}
+
+		table,
+		th,
+		td {
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+
+		td {
+			text-align: center;
+
+		}
+	</style>
+</head>
+
+<body>
+
+	<h1>This Is Simple Page Design</h1>
+	<hr><br>
+	<h3>This is Unorder List Demo.</h3>
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Html</a></li>
+		<li><a href="#">CSS</a></li>
+		<li><a href="#">Java-Script</a></li>
+		<li><a href="#">Php</a></li>
+	</ul>
+	<br>
+	<hr><br>
+	<h3>This is order List Demo.</h3>
+	<ol>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">C</a></li>
+		<li><a href="#">C++</a></li>
+		<li><a href="#">Java</a></li>
+		<li><a href="#">Python</a></li>
+	</ol><br>
+	<hr><br>
+	<h3>This is order List Roman Demo.</h3>
+	<ol type="i" start="5">
+		<li><a href="#">Home</a></li>
+		<li><a href="#">C</a></li>
+		<li><a href="#">C++</a></li>
+		<li><a href="#">Java</a></li>
+		<li><a href="#">Python</a></li>
+	</ol>
+	<br>
+	<hr><br>
+	<h3>This is Unorder Nested List Demo.</h3>
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Html</a></li>
+		<li><a href="#">CSS</a>
+			<ul>
+				<li><a href="#">Home 2</a></li>
+				<li><a href="#">Html 2</a></li>
+				<li><a href="#">CSS 2</a></li>
+				<li><a href="#">Java-Script 2</a></li>
+				<li><a href="#">Php 2</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Java-Script</a></li>
+		<li><a href="#">Php</a></li>
+	</ul>
+	<br>
+	<hr>
+	<br>
+	<h3>This is Unorder/Oder Combo Nested List Demo.</h3>
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Html</a></li>
+		<li><a href="#">CSS</a>
+			<ol type="A">
+				<li><a href="#">Home Combo</a></li>
+				<li><a href="#">Html Combo</a></li>
+				<li><a href="#">CSS Combo</a></li>
+				<li><a href="#">Java-Script Combo</a></li>
+				<li><a href="#">Php Combo</a></li>
+			</ol>
+		</li>
+		<li><a href="#">Java-Script</a></li>
+		<li><a href="#">Php</a></li>
+	</ul>
+	<br>
+	<hr>
+	<br>
+	<h3>This is Button Demo.</h3>
+	<button>Click Me</button>
+	<br><br>
+	<hr>
+	<br>
+	<h3>This is Table Demo.</h3>
+	<br>
+	<br>
+	<table>
+		<tbody>
+			<capton>Complex Table</capton>
+			<tr>
+				<td colspan="2">A</td>
+				<td rowspan="3">E</td>
+				<td rowspan="3">F</td>
+				<td rowspan="3">G</td>
+				<td colspan="9">J</td>
+			</tr>
+			<tr>
+				<td rowspan="7">B</td>
+				<td rowspan="7">C</td>
+			</tr>
+			<tr>
+				<td colspan="6">H</td>
+			</tr>
+			<tr>
+				<td colspan="3">H</td>
+				<td colspan="3">I</td>
+			</tr>
+			<tr>
+				<td colspan="2" rowspan="2">D</td>
+				<td colspan="2" rowspan="2">I</td>
+				<td>L</td>
+			</tr>
+			<tr>
+				<td>K</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<br>
+	<br>
+
+</body></html>
